@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100vh;
+}
+.users {
+    background-color: #fff;
+    color:#000;
+    margin-top: 0px;
+    padding-left: 5px;
+    border-radius: 10px;
+}
+.dashboard-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.sidebar {
+  background-color: #f0c929;
+  width: 200px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sidebar h2 {
+  margin-bottom: 20px;
+}
+
+.sidebar a {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 40px;
+}
+
+.main-content h1 {
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+}
+
+input[type="text"] {
+  width: calc(100% - 20px);
+}
+
+input[type="file"] {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f0c929;
+  color: #000;
+  font-size: 16px;
+  cursor: pointer;
+  width: 150px;
+  align-self: center;
+}
+
+button:hover {
+  background-color: #e0b828;
+}
+
+textarea {
+  height: 100px;
+  resize: none;
+}
